@@ -60,7 +60,7 @@ async function sendEmail(data) {
 
   const info = await transporter.sendMail({
     from: EMAIL_FROM,
-    to: EMAIL_TO,
+    to: data.email,
     subject: 'New contact request from website',
     text: textBody,
     html: htmlBody,
