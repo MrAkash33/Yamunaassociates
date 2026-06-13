@@ -1520,7 +1520,7 @@ export default function Stats() {
 
     </div>
 
-    <div className="mx-auto max-w-5xl rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl md:p-12">
+    {/* <div className="mx-auto max-w-5xl rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl md:p-12">
 
       <form className="grid gap-6 md:grid-cols-2">
 
@@ -1595,7 +1595,7 @@ export default function Stats() {
 
       </form>
 
-    </div>
+    </div> */}
 
   </div>
 
