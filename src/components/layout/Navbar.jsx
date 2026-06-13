@@ -1,21 +1,22 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const menus = [
-    "Home",
-    "Projects",
-    "Available Plots",
-    "Maps",
-    "Services",
-    "Blogs",
-    "FAQ",
-    "Gallery",
-    "About Us",
+    { label: "Home", href: "/" },
+    { label: "Projects", href: "/projects" },
+    { label: "Available Plots", href: "/available-plots" },
+    { label: "Maps", href: "/maps" },
+    { label: "Services", href: "/services" },
+    { label: "Blogs", href: "/blogs" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Gallery", href: "/gallery" },
+    { label: "About Us", href: "/about-us" },
   ];
 
   return (
@@ -31,25 +32,24 @@ export default function Navbar() {
           </div>
 
           <nav className="hidden xl:flex items-center gap-8 text-white">
-
             {menus.map((menu) => (
-              <a
-                key={menu}
-                href="#"
+              <Link
+                key={menu.label}
+                href={menu.href}
                 className="transition hover:text-yellow-400"
               >
-                {menu}
-              </a>
+                {menu.label}
+              </Link>
             ))}
           </nav>
-            <button
-              className="hidden xl:block rounded-xl bg-yellow-400 font-semibold text-black"
-              style={{
-                padding: "8px 16px",
-              }}
-            >
-              Book Site Visit
-            </button>
+          <button
+            className="hidden xl:block rounded-xl bg-yellow-400 font-semibold text-black"
+            style={{
+              padding: "8px 16px",
+            }}
+          >
+            Book Site Visit
+          </button>
 
           <button
             onClick={() => setOpen(true)}
@@ -74,15 +74,15 @@ export default function Navbar() {
           </div>
 
           <div className="mt-16 flex flex-col gap-8 text-center">
-
             {menus.map((menu) => (
-              <a
-                key={menu}
-                href="#"
+              <Link
+                key={menu.label}
+                href={menu.href}
                 className="text-2xl text-white"
+                onClick={() => setOpen(false)}
               >
-                {menu}
-              </a>
+                {menu.label}
+              </Link>
             ))}
 
             <button className="mt-8 rounded-xl bg-yellow-400 py-4 font-bold text-black">

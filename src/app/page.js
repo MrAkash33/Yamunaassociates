@@ -8,17 +8,25 @@ import Blogs from "@/components/home/Blogs";
 import ContactCTA from "@/components/home/ContactCTA";
 import SocialSidebar from "@/components/common/SocialSidebar";
 import Footer from "@/components/layout/Footer";
+import ClientOnly from "@/components/ClientOnly";
 
 export default function Home() {
   return (
     <>
-    <SocialSidebar/>
-      <Navbar />
-      <main>
-        <Hero />
-        <Stats />
-        <Footer/>
-      </main>
+      <ClientOnly>
+        <SocialSidebar />
+        <Navbar />
+        <main>
+          <Hero />
+          <Stats />
+          <FeaturedProjects />
+          <WhyChooseUs />
+          <Testimonials />
+          <Blogs />
+          <ContactCTA />
+          <Footer />
+        </main>
+      </ClientOnly>
     </>
   );
 }
