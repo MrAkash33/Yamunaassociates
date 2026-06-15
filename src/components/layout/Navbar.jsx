@@ -26,9 +26,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-black/30 backdrop-blur-xl" style={{padding:"15px 15px"}}>
 
           <div>
-            <h2 className="text-2xl font-bold text-yellow-400">
-              Yamuna Associations
-            </h2>
+            <img src='/logo.jpeg' style={{width:"50px"}}/>
           </div>
 
           <nav className="hidden xl:flex items-center gap-8 text-white">
