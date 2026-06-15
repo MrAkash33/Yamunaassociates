@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-black/30 backdrop-blur-xl" style={{padding:"15px 15px"}}>
 
           <div>
-            <img src='/logo.jpeg' style={{width:"50px"}}/>
+            <img src='/logowhite.jpeg' style={{width:"150px"}}/>
           </div>
 
           <nav className="hidden xl:flex items-center gap-8 text-white">
