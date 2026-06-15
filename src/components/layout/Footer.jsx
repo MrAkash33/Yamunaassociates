@@ -12,7 +12,7 @@ export default function Footer() {
 
           <div className="lg:col-span-4">
 
-          <img src='/goldlogo.png' style={{width:"140px",height:"52px"}}/>
+          <img src='/goldlogo.png' style={{width:"200px",height:"82px"}}/>
 
             <p className="mt-5 leading-8 text-slate-300">
               Yamuna Associates is a trusted real estate consultant
