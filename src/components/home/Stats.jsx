@@ -337,7 +337,7 @@ export default function Stats() {
 
             <p>
               <span className="font-semibold text-slate-900">
-                SKD Prop World
+                Yamuna Associates
               </span>{" "}
               is a trusted real estate consultant in Greater Noida,
               helping buyers and investors make informed decisions in
@@ -466,11 +466,11 @@ export default function Stats() {
           </span>
 
           <h2 className="mt-5 text-4xl font-bold text-slate-900 md:text-5xl">
-            Why Choose SKD Propworld Pvt. Ltd.
+            Why Choose Yamuna Associates.
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Choosing the right real estate partner matters. At SKD Propworld,
+            Choosing the right real estate partner matters. At Yamuna Associates,
             we prioritize transparency, verified property information, and
             client-first guidance to ensure a safe and confident property
             investment experience.
@@ -571,7 +571,7 @@ export default function Stats() {
           </h3>
 
           <p className="mx-auto mt-4 max-w-3xl text-black/80">
-            Contact SKD Propworld today for site visits,
+            Contact Yamuna Associates today for site visits,
             pricing information, property consultation,
             and complete documentation support.
           </p>
@@ -611,7 +611,7 @@ export default function Stats() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            As a trusted property dealer in Greater Noida, SKD Propworld
+            As a trusted property dealer in Greater Noida, Yamuna Associates
             offers transparent guidance, honest advice, and end-to-end
             support for buyers and investors. From property shortlisting
             to documentation and registration, our team ensures a smooth
@@ -657,7 +657,7 @@ export default function Stats() {
             </p>
 
             <p className="mt-4 leading-8 text-slate-600">
-              At SKD Propworld, we help investors identify verified plots
+              At Yamuna Associates, we help investors identify verified plots
               and high-growth opportunities backed by local expertise,
               market insights, and a transparent advisory process.
             </p>
@@ -721,7 +721,7 @@ export default function Stats() {
           </h3>
 
           <p className="mx-auto mt-4 max-w-3xl text-black/80">
-            Connect with SKD Propworld for verified properties,
+            Connect with Yamuna Associates for verified properties,
             investment consultation, site visits, and complete
             documentation support.
           </p>
@@ -980,7 +980,7 @@ export default function Stats() {
       </h2>
 
       <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-slate-600">
-        SKD Propworld is among the leading real estate consultants in
+        Yamuna Associates is among the leading real estate consultants in
         Greater Noida and YEIDA, helping investors and homebuyers
         discover verified residential, commercial, and investment
         opportunities with complete assistance.
@@ -1071,7 +1071,7 @@ export default function Stats() {
 
       <p className="text-lg leading-8 text-slate-600">
         Looking for trusted real estate experts in Greater Noida or
-        YEIDA? Connect with SKD Propworld for verified property
+        YEIDA? Connect with Yamuna Associates for verified property
         options, site visits, pricing assistance, legal guidance,
         and complete documentation support.
       </p>
