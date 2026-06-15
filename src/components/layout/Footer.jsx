@@ -96,7 +96,7 @@ export default function Footer() {
               </p>
 
               <p>
-                📞 +91 90910 10909
+                📞 +91 87000 88376
               </p>
 
               <p>
