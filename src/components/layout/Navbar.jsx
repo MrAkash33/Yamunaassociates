@@ -23,10 +23,10 @@ export default function Navbar() {
     <>
       <header className="fixed top-5 left-1/2 z-50 w-[95%] max-w-7xl -translate-x-1/2">
 
-        <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-black/30 backdrop-blur-xl" style={{padding:"15px 15px"}}>
+        <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-black/30 backdrop-blur-xl" style={{padding:"2px 2px"}}>
 
           <div>
-            <img src='/goldlogo.png' style={{width:"140px",height:"52px"}}/>
+            <img src='/goldlogo.png' style={{width:"200px",height:"72px"}}/>
           </div>
 
           <nav className="hidden xl:flex items-center gap-8 text-white">
