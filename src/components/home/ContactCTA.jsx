@@ -122,6 +122,7 @@ export default function ContactCTA() {
               <span className="text-sm font-semibold">Tell us about your requirements</span>
               <textarea
                 required
+                placeholder='Enter Message'
                 rows={5}
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
