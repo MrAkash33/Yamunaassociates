@@ -1,3 +1,5 @@
+"use client";
+
 export default function Hero() {
   return (
     <section className="relative h-screen overflow-hidden">
@@ -49,11 +51,11 @@ export default function Hero() {
             </button>
 
             <button className="rounded-xl border border-white px-8 py-4 text-white"
-            onClick={() => {
-              document
-                .getElementById("contact-cta")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
+             onClick={() => {
+                document
+                  .getElementById("contact-cta")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               Schedule Visit
             </button>
