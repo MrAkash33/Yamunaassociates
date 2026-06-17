@@ -570,23 +570,17 @@ export default function Stats() {
             and complete documentation support.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
+          {/* <div className="mt-8 flex flex-wrap justify-center gap-4">
 
             <button className="rounded-xl bg-black px-8 py-4 font-semibold text-white transition hover:scale-105">
               Contact Us Today
             </button>
 
-            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black transition hover:bg-black hover:text-white"
-            onClick={() => {
-              document
-                .getElementById("contact-cta")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
-            >
+            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black transition hover:bg-black hover:text-white">
               Schedule Site Visit
             </button>
 
-          </div>
+          </div> */}
 
         </div>
 
@@ -703,29 +697,17 @@ export default function Stats() {
             documentation support.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
+          {/* <div className="mt-8 flex flex-wrap justify-center gap-4">
 
-            <button className="rounded-xl bg-black px-8 py-4 font-semibold text-white"
-              onClick={() => {
-                document
-                  .getElementById("contact-cta")
-                  ?.scrollIntoView({ behavior: "smooth" });
-              }}
-            >
+            <button className="rounded-xl bg-black px-8 py-4 font-semibold text-white">
               Contact Us
             </button>
 
-            {/* <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black"
-              onClick={() => {
-                document
-                  .getElementById("contact-cta")
-                  ?.scrollIntoView({ behavior: "smooth" });
-              }}
-            >
+            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black">
               Schedule Site Visit
-            </button> */}
+            </button>
 
-          </div>
+          </div> */}
 
         </div>
 
@@ -1065,23 +1047,17 @@ export default function Stats() {
         and complete documentation support.
       </p>
 
-      <div className="mt-8 flex flex-wrap justify-center gap-4">
+      {/* <div className="mt-8 flex flex-wrap justify-center gap-4">
 
         <button className="rounded-xl bg-black px-8 py-4 font-semibold text-white transition hover:scale-105">
           Contact Us
         </button>
 
-        <button className="rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-700 transition hover:bg-slate-100"
-        onClick={() => {
-              document
-                .getElementById("contact-cta")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
-        >
+        <button className="rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-700 transition hover:bg-slate-100">
           Schedule Site Visit
         </button>
 
-      </div>
+      </div> */}
 
     </div>
 
