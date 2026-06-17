@@ -12,31 +12,31 @@ const socialLinks = [
   {
     name: "Facebook",
     icon: FaFacebookF,
-    href: "https://facebook.com",
+    href: "https://www.facebook.com/yamuna.deals.2025",
     bg: "bg-blue-600",
   },
   {
     name: "Instagram",
     icon: FaInstagram,
-    href: "https://instagram.com",
+    href: "https://www.instagram.com/yamuna_associates/",
     bg: "bg-pink-600",
   },
-  {
-    name: "LinkedIn",
-    icon: FaLinkedinIn,
-    href: "https://linkedin.com",
-    bg: "bg-blue-700",
-  },
-  {
-    name: "YouTube",
-    icon: FaYoutube,
-    href: "https://youtube.com",
-    bg: "bg-red-600",
-  },
+  // {
+  //   name: "LinkedIn",
+  //   icon: FaLinkedinIn,
+  //   href: "https://linkedin.com",
+  //   bg: "bg-blue-700",
+  // },
+  // {
+  //   name: "YouTube",
+  //   icon: FaYoutube,
+  //   href: "https://youtube.com",
+  //   bg: "bg-red-600",
+  // },
   {
     name: "WhatsApp",
     icon: FaWhatsapp,
-    href: "https://wa.me/919999999999",
+    href: "https://wa.me/918700088376",
     bg: "bg-green-500",
   },
 ];

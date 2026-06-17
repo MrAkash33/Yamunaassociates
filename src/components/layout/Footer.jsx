@@ -109,7 +109,7 @@ export default function Footer() {
             </div>
 
             <button className="mt-5 rounded-xl border border-yellow-400 px-5 py-3 text-yellow-400 transition hover:bg-yellow-400 hover:text-black">
-              <a href="https://www.google.com/maps/place/Khyati+Associates/@28.5930189,77.338708,18.03z/data=!4m14!1m7!3m6!1s0x390ce537362e397b:0x46fd121866406445!2sKhyati+Associates!8m2!3d28.592913!4d77.339398!16s%2Fg%2F11mlscmsxt!3m5!1s0x390ce537362e397b:0x46fd121866406445!8m2!3d28.592913!4d77.339398!16s%2Fg%2F11mlscmsxt?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Khyati+Associates/@28.5930189,77.338708,18.03z/data=!4m14!1m7!3m6!1s0x390ce537362e397b:0x46fd121866406445!2sKhyati+Associates!8m2!3d28.592913!4d77.339398!16s%2Fg%2F11mlscmsxt!3m5!1s0x390ce537362e397b:0x46fd121866406445!8m2!3d28.592913!4d77.339398!16s%2Fg%2F11mlscmsxt?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D">
               View on Google Maps
               </a>
             </button>
