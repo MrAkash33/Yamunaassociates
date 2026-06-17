@@ -330,7 +330,7 @@ export default function Stats() {
         <div className="mx-auto max-w-4xl">
 
           <h2 className="mb-8 text-center text-3xl font-bold text-slate-900 md:text-4xl">
-            Real Estate Solutions You Can Trust
+            Property expertise you can count on
           </h2>
 
           <div className="space-y-6 text-base leading-8 text-slate-600 md:text-lg">
@@ -470,10 +470,7 @@ export default function Stats() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Choosing the right real estate partner matters. At Yamuna Associates,
-            we prioritize transparency, verified property information, and
-            client-first guidance to ensure a safe and confident property
-            investment experience.
+             Finding the right property starts with trust. At Yamuna Associates, we deliver honest advice, verified listings, and a seamless buying experience.
           </p>
 
         </div>
@@ -486,12 +483,11 @@ export default function Stats() {
             <div className="mb-4 text-4xl">✔️</div>
 
             <h3 className="mb-3 text-xl font-bold text-slate-900">
-              Verified & Authority Approved Properties
+              100% Legal & Approved
             </h3>
 
             <p className="leading-7 text-slate-600">
-              Every property is thoroughly verified for approvals,
-              ownership records, and legal documentation.
+              Every property undergoes strict title checks, ownership verification, and regulatory clearance.
             </p>
           </div>
 
@@ -499,12 +495,11 @@ export default function Stats() {
             <div className="mb-4 text-4xl">📍</div>
 
             <h3 className="mb-3 text-xl font-bold text-slate-900">
-              Strong Local Presence
+              The Hyper-Local Experts
             </h3>
 
             <p className="leading-7 text-slate-600">
-              Extensive on-ground experience across Greater Noida,
-              YEIDA, and Yamuna Expressway regions.
+              Decades of on-ground experience across Greater Noida, YEIDA, and the Yamuna Expressway.
             </p>
           </div>
 
@@ -512,12 +507,11 @@ export default function Stats() {
             <div className="mb-4 text-4xl">🔍</div>
 
             <h3 className="mb-3 text-xl font-bold text-slate-900">
-              Transparent Process
+              100% Clear Pricing
             </h3>
 
             <p className="leading-7 text-slate-600">
-              Honest consultation, transparent pricing,
-              and absolutely no hidden charges.
+              Honest advice, upfront costs, and zero hidden fees.
             </p>
           </div>
 
@@ -607,15 +601,11 @@ export default function Stats() {
           </span>
 
           <h2 className="mt-5 text-4xl font-bold text-slate-900 md:text-5xl">
-            Trusted Property Dealer in Greater Noida
+              End-to-End Property Solutions in Greater Noida
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            As a trusted property dealer in Greater Noida, Yamuna Associates
-            offers transparent guidance, honest advice, and end-to-end
-            support for buyers and investors. From property shortlisting
-            to documentation and registration, our team ensures a smooth
-            and hassle-free experience.
+             End-to-End Property Solutions in Greater Noida At Yamuna Associates, we don't just find you a property—we secure your investment. Our team provides verified property options, clear consultation, and complete support with documentation and registration across Greater Noida and the YEIDA regions.
           </p>
 
           <p className="mt-4 text-lg leading-8 text-slate-600">
@@ -641,27 +631,8 @@ export default function Stats() {
             </h3>
 
             <p className="mt-6 leading-8 text-slate-600">
-              YEIDA (Yamuna Expressway Industrial Development Authority)
-              is one of the fastest-growing real estate destinations near
-              Greater Noida. Strategically located along the Yamuna
-              Expressway, it offers seamless connectivity to Noida,
-              Greater Noida, Agra, and the upcoming Noida International
-              Airport (Jewar Airport).
+              The Yamuna Expressway Industrial Development Authority (YEIDA) region has rapidly emerged as Delhi-NCR’s premier high-growth real estate corridor, offering unmatched long-term investment potential near Greater Noida. Strategically positioned along the Yamuna Expressway, the region provides seamless connectivity to Noida, Greater Noida, and Agra, while being directly anchored by major economic drivers like the upcoming Noida International Airport at Jewar, the mega Film City, industrial corridors, and modern smart townships. Capitalizing on this massive growth requires trusted, on-ground expertise, which is where Yamuna Associates steps in. We simplify your investment journey by leveraging deep local insights to identify authority-approved, fully verified plots, ensuring a secure, profitable, and entirely transparent buying experience from site visit to final registration.
             </p>
-
-            <p className="mt-4 leading-8 text-slate-600">
-              With major developments such as Film City, Logistics Hubs,
-              Industrial Corridors, Educational Institutions, and Smart
-              Townships, YEIDA has emerged as a preferred destination for
-              residential, commercial, and industrial investments.
-            </p>
-
-            <p className="mt-4 leading-8 text-slate-600">
-              At Yamuna Associates, we help investors identify verified plots
-              and high-growth opportunities backed by local expertise,
-              market insights, and a transparent advisory process.
-            </p>
-
           </div>
 
           {/* Highlights Cards */}
