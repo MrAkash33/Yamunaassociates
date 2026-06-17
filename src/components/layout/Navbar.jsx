@@ -45,6 +45,11 @@ export default function Navbar() {
             style={{
               padding: "8px 16px",
             }}
+             onClick={() => {
+              document
+                .getElementById("contact-cta")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
           >
             Book Site Visit
           </button>

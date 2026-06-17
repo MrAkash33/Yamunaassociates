@@ -23,7 +23,9 @@ export default function Home() {
           <WhyChooseUs />
           <Testimonials />
           <Blogs />
-          <ContactCTA />
+          <section id="contact-cta">
+            <ContactCTA />
+          </section>
           <Footer />
         </main>
       </ClientOnly>
