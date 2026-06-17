@@ -71,6 +71,7 @@ export default function ContactCTA() {
                 <span className="text-sm font-semibold">Full Name</span>
                 <input
                   required
+                  placeholder='Full Name'
                   value={form.fullName}
                   onChange={(e) => setForm({ ...form, fullName: e.target.value })}
                   className="mt-2 w-full rounded-3xl border border-slate-300 bg-white/90 px-4 py-3 text-slate-950 focus:outline-none focus:ring-2 focus:ring-amber-400"
@@ -81,6 +82,7 @@ export default function ContactCTA() {
                 <span className="text-sm font-semibold">Email Address</span>
                 <input
                   type="email"
+                  placeholder='Email Id'
                   required
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -95,6 +97,7 @@ export default function ContactCTA() {
                 <input
                   type="tel"
                   required
+                  placeholder='Mobile number'
                   value={form.phone}
                   onChange={(e) => setForm({ ...form, phone: e.target.value })}
                   className="mt-2 w-full rounded-3xl border border-slate-300 bg-white/90 px-4 py-3 text-slate-950 focus:outline-none focus:ring-2 focus:ring-amber-400"

@@ -98,9 +98,7 @@ export default function Footer() {
               </p>
 
               <p>
-                📍 Alpha 1 Commercial Belt,
-                Greater Noida,
-                Uttar Pradesh
+                📍 O-91, Second floor Noida Sec-12, Pin Code : 201301
               </p>
 
               <p className="italic text-slate-400">
