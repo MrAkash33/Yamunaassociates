@@ -705,19 +705,25 @@ export default function Stats() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
 
-            <button className="rounded-xl bg-black px-8 py-4 font-semibold text-white">
+            <button className="rounded-xl bg-black px-8 py-4 font-semibold text-white"
+              onClick={() => {
+                document
+                  .getElementById("contact-cta")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               Contact Us
             </button>
 
-            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black"
-            onClick={() => {
-              document
-                .getElementById("contact-cta")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
+            {/* <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black"
+              onClick={() => {
+                document
+                  .getElementById("contact-cta")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               Schedule Site Visit
-            </button>
+            </button> */}
 
           </div>
 
