@@ -576,7 +576,13 @@ export default function Stats() {
               Contact Us Today
             </button>
 
-            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black transition hover:bg-black hover:text-white">
+            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black transition hover:bg-black hover:text-white"
+            onClick={() => {
+              document
+                .getElementById("contact-cta")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            >
               Schedule Site Visit
             </button>
 
@@ -703,7 +709,13 @@ export default function Stats() {
               Contact Us
             </button>
 
-            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black">
+            <button className="rounded-xl border border-black px-8 py-4 font-semibold text-black"
+            onClick={() => {
+              document
+                .getElementById("contact-cta")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            >
               Schedule Site Visit
             </button>
 
@@ -1053,7 +1065,13 @@ export default function Stats() {
           Contact Us
         </button>
 
-        <button className="rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-700 transition hover:bg-slate-100">
+        <button className="rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-700 transition hover:bg-slate-100"
+        onClick={() => {
+              document
+                .getElementById("contact-cta")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+        >
           Schedule Site Visit
         </button>
 

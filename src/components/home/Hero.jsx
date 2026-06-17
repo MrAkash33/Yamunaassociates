@@ -43,10 +43,18 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <button className="rounded-xl bg-yellow-400 px-8 py-4 font-bold text-black">
-              Explore Projects
+              <a href="/projects">
+                Explore Projects
+              </a>
             </button>
 
-            <button className="rounded-xl border border-white px-8 py-4 text-white">
+            <button className="rounded-xl border border-white px-8 py-4 text-white"
+            onClick={() => {
+              document
+                .getElementById("contact-cta")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            >
               Schedule Visit
             </button>
 
