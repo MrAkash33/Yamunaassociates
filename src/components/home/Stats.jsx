@@ -715,12 +715,10 @@ export default function Stats() {
     </section>
 
     {/* ----------- */}
-    <section className="bg-slate-50 py-20">
+    {/* <section className="bg-slate-50 py-20">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
-
-          {/* Left Content */}
 
           <div className="lg:col-span-4">
 
@@ -759,8 +757,6 @@ export default function Stats() {
             </div>
 
           </div>
-
-          {/* Videos */}
 
           <div className="lg:col-span-8">
 
@@ -819,7 +815,7 @@ export default function Stats() {
         </div>
 
       </div>
-    </section>
+    </section> */}
 
     {/* -------------- */}
     <section className="bg-white py-20">
@@ -847,10 +843,7 @@ export default function Stats() {
 
     {/* Team Cards */}
 
-    <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
-
-      {/* Pawan Sir */}
-
+    {/* <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
       <div className="group overflow-hidden rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
 
         <div className="flex justify-center">
@@ -895,8 +888,6 @@ export default function Stats() {
 
       </div>
 
-      {/* Aarti Mam */}
-
       <div className="group overflow-hidden rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
 
         <div className="flex justify-center">
@@ -930,7 +921,7 @@ export default function Stats() {
 
       </div>
 
-    </div>
+    </div> */}
 
   </div>
     </section>

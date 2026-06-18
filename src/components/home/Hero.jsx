@@ -51,13 +51,10 @@ export default function Hero() {
             </button>
 
             <button className="rounded-xl border border-white px-8 py-4 text-white"
-             onClick={() => {
-                document
-                  .getElementById("contact-cta")
-                  ?.scrollIntoView({ behavior: "smooth" });
-              }}
             >
-              Schedule Visit
+              <a target="blank" href="https://wa.me/918700088376">
+                Contact Us
+              </a>
             </button>
 
           </div>
