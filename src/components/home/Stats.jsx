@@ -1100,7 +1100,7 @@ export default function Stats() {
           </p>
 
           <p className="mt-5 font-semibold text-green-600">
-            Harshit Singh
+            Jyoti Singh
           </p>
 
           <p className="text-sm text-slate-400">
@@ -1139,7 +1139,7 @@ export default function Stats() {
           </p>
 
           <p className="mt-5 font-semibold text-green-600">
-            Shailendra Kumar
+            Aman Kumar
           </p>
 
           <p className="text-sm text-slate-400">
@@ -1178,7 +1178,7 @@ export default function Stats() {
           </p>
 
           <p className="mt-5 font-semibold text-green-600">
-            Aman Yadav
+            Amit Gaur
           </p>
 
           <p className="text-sm text-slate-400">
