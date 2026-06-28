@@ -16,14 +16,14 @@ export default function FloatingContact() {
   const contacts = [
     {
       icon: Phone,
-      title: "+91 90910 10909",
-      href: "tel:+919091010909",
+      title: "+91 7428452995",
+      href: "tel:+917428452995",
       color: "text-blue-600",
     },
     {
       icon: MessageCircle,
       title: "WhatsApp Chat",
-      href: "https://wa.me/919091010909",
+      href: "https://wa.me/917428452995",
       color: "text-green-600",
       target: "_blank",
     },
