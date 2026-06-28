@@ -44,8 +44,8 @@ const projects = [
     title: "Sector 20 Residential Plots",
     description:
       "Affordable residential plots approved by YEIDA.",
-    plotSize: "120 - 500 sq.m",
-    price: "₹90 Lakh - ₹3 Cr",
+    plotSize: "300 - 500 sq.m",
+    price: "₹90 Lakh - ₹4 Cr",
     airport: "18 km",
     connectivity: "Yamuna Expressway + Metro Proposed",
     infrastructure: "Underground Utilities",
@@ -259,7 +259,7 @@ const newsData = [
     date: "26 Nov 2025",
     category: "Airport Update",
     image:
-      "https://res.cloudinary.com/dfigx6dgg/image/upload/v1764156103/skd_gallery/q1xw1neuadgoviq2qawy.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqD6mDj1jskkxctwGVTuJiXEOxXPCbeifzQA&s",
     short:
       "Noida International Airport has successfully completed final inspections.",
     content: `

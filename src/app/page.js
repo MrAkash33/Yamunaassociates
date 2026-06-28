@@ -9,6 +9,7 @@ import ContactCTA from "@/components/home/ContactCTA";
 import SocialSidebar from "@/components/common/SocialSidebar";
 import Footer from "@/components/layout/Footer";
 import ClientOnly from "@/components/ClientOnly";
+import FloatingContact from "@/components/FloatingContact";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
             <ContactCTA />
           </section>
           <Footer />
+          <FloatingContact />
         </main>
       </ClientOnly>
     </>

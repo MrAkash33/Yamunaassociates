@@ -36,7 +36,7 @@ const socialLinks = [
   {
     name: "WhatsApp",
     icon: FaWhatsapp,
-    href: "https://wa.me/918700088376",
+    href: "https://wa.me/917428452995",
     bg: "bg-green-500",
   },
 ];

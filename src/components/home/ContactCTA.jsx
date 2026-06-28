@@ -59,7 +59,7 @@ export default function ContactCTA() {
               Share your details and property preferences below. We will send the information directly to our team via email and WhatsApp.
             </p>
             <div className="mt-8 space-y-4 text-slate-200">
-              <p>📞 +91 87000 88376</p>
+              <p>📞 +91 7428452995</p>
               <p>📧 info@yamunaassociates.com</p>
               <p>🌍 Greater Noida • Yamuna Expressway</p>
             </div>
