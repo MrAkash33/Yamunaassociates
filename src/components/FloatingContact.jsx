@@ -13,90 +13,72 @@ import {
 export default function FloatingContact() {
   const [open, setOpen] = useState(false);
 
-  const contacts = [
-    {
-      icon: Phone,
-      title: "+91 7428452995",
-      href: "tel:+917428452995",
-      color: "text-blue-600",
-    },
-    {
-      icon: MessageCircle,
-      title: "WhatsApp Chat",
-      href: "https://wa.me/917428452995",
-      color: "text-green-600",
-      target: "_blank",
-    },
-    {
-      icon: Mail,
-      title: "info@yamunaassociations.com",
-      href: "mailto:info@yamunaassociations.com",
-      color: "text-red-500",
-    },
-  ];
-
   return (
     <div className="fixed bottom-5 right-5 z-[9999]">
-
-      {/* Contact Card */}
 
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{
-              opacity: 0,
-              scale: 0.9,
-              y: 20,
-            }}
-            animate={{
-              opacity: 1,
-              scale: 1,
-              y: 0,
-            }}
-            exit={{
-              opacity: 0,
-              scale: 0.9,
-              y: 20,
-            }}
-            transition={{
-              duration: 0.25,
-              ease: "easeOut",
-            }}
-            className="absolute bottom-20 right-0 w-72 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-2xl"
+            initial={{ opacity: 0, y: 20, scale: .9 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 20, scale: .9 }}
+            transition={{ duration: .25 }}
+            className="absolute bottom-20 right-0 w-72 overflow-hidden rounded-2xl bg-white shadow-2xl border"
           >
-            <div className="border-b bg-gray-50 px-5 py-4">
-              <h3 className="font-semibold text-gray-900">
+            <div className="border-b p-4">
+              <h3 className="font-semibold text-lg">
                 Contact Us
               </h3>
 
-              <p className="mt-1 text-sm text-gray-500">
-                We're always happy to help.
+              <p className="text-sm text-gray-500">
+                We're always here to help.
               </p>
             </div>
 
-            <div className="p-3">
+            <div className="p-2">
 
-              {contacts.map((item, index) => {
-                const Icon = item.icon;
+              <a
+                href="tel:7428452995"
+                className="flex items-center gap-3 rounded-xl p-3 hover:bg-gray-100 transition"
+              >
+                <div className="h-10 w-10 rounded-full bg-blue-50 flex items-center justify-center">
+                  <Phone size={18} className="text-blue-600"/>
+                </div>
 
-                return (
-                  <a
-                    key={index}
-                    href={item.href}
-                    target={item.target}
-                    rel="noreferrer"
-                    className="flex items-center gap-3 rounded-xl p-3 transition-all duration-200 hover:bg-gray-100"
-                  >
-                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100">
-                      <Icon size={18} className={item.color} />
-                    </div>
+                <div>
+                  <p className="font-medium">7428452995</p>
+                </div>
+              </a>
 
-                    <span className="text-sm font-medium text-gray-800">
-                      {item.title}
-                    </span>
-                  </a>
-                );
-              })}
+              <a
+                href="https://wa.me/917428452995"
+                target="_blank"
+                className="flex items-center gap-3 rounded-xl p-3 hover:bg-green-50 transition"
+              >
+                <div className="h-10 w-10 rounded-full bg-green-50 flex items-center justify-center">
+                  <MessageCircle size={18} className="text-green-600"/>
+                </div>
+
+                <div>
+                  <p className="font-medium">WhatsApp</p>
+                </div>
+              </a>
+
+              <a
+                href="mailto:info@yamunaassociations.com"
+                className="flex items-center gap-3 rounded-xl p-3 hover:bg-red-50 transition"
+              >
+                <div className="h-10 w-10 rounded-full bg-red-50 flex items-center justify-center">
+                  <Mail size={18} className="text-red-500"/>
+                </div>
+
+                <div>
+                  <p className="font-medium">
+                    info@yamunaassociations.com
+                  </p>
+                </div>
+              </a>
+
             </div>
           </motion.div>
         )}
@@ -105,25 +87,30 @@ export default function FloatingContact() {
       {/* Floating Button */}
 
       <motion.button
-        whileHover={{
-          scale: 1.05,
-        }}
-        whileTap={{
-          scale: 0.95,
-        }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: .95 }}
         onClick={() => setOpen(!open)}
-        className="flex h-14 items-center gap-3 rounded-full bg-yellow-400 px-5 shadow-xl"
+        className="relative overflow-hidden flex items-center gap-3 rounded-full bg-yellow-400 px-5 py-3 shadow-xl animate-contact-glow"
       >
-        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-white">
-          <Headset size={18} />
+
+        {/* Water Shine */}
+        <span className="absolute inset-0 rounded-full overflow-hidden">
+          <span className="absolute left-[-70%] top-0 h-full w-16 rotate-12 bg-white/50 blur-md animate-water-shine"></span>
+        </span>
+
+        <div className="relative z-10 flex h-9 w-9 items-center justify-center rounded-full bg-white">
+          <Headset size={18}/>
         </div>
 
-        <span className="hidden text-sm font-semibold text-gray-900 sm:block">
+        <span className="relative z-10 hidden sm:block font-semibold">
           We're Here
         </span>
 
-        {open ? <X size={16} /> : null}
+        {open && (
+          <X size={16} className="relative z-10"/>
+        )}
       </motion.button>
+
     </div>
   );
 }

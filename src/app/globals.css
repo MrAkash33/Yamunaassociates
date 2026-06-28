@@ -57,3 +57,54 @@ a {
 .scrollbar-hide {
   scrollbar-width: none;
 }
+
+/* Water Shine */
+
+@keyframes water-shine {
+
+  0%{
+    transform:translateX(-180px) rotate(15deg);
+    opacity:0;
+  }
+
+  15%{
+    opacity:.8;
+  }
+
+  50%{
+    opacity:1;
+  }
+
+  100%{
+    transform:translateX(340px) rotate(15deg);
+    opacity:0;
+  }
+
+}
+
+.animate-water-shine{
+  animation:water-shine 2s linear infinite;
+}
+
+
+/* Glow */
+
+@keyframes contact-glow{
+
+  0%{
+    box-shadow:0 0 12px rgba(250,204,21,.35);
+  }
+
+  50%{
+    box-shadow:0 0 25px rgba(250,204,21,.7);
+  }
+
+  100%{
+    box-shadow:0 0 12px rgba(250,204,21,.35);
+  }
+
+}
+
+.animate-contact-glow{
+  animation:contact-glow 2s ease-in-out infinite;
+}
