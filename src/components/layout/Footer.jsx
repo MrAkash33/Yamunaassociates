@@ -120,11 +120,11 @@ export default function Footer() {
 
           <div className="lg:col-span-3">
 
-            <h4 className="mb-5 text-lg font-semibold uppercase">
+            {/* <h4 className="mb-5 text-lg font-semibold uppercase">
               Follow Us
-            </h4>
+            </h4> */}
 
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
 
               <a
                 href="#"
@@ -154,7 +154,7 @@ export default function Footer() {
                 YT
               </a>
 
-            </div>
+            </div> */}
 
             <div className="mt-8 rounded-2xl border border-slate-800 bg-slate-900 p-6 text-center">
 
