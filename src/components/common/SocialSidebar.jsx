@@ -36,7 +36,7 @@ const socialLinks = [
   {
     name: "WhatsApp",
     icon: FaWhatsapp,
-    href: "https://wa.me/918700088376",
+    href: "https://wa.me/918700088376?text=Hi%2C%20I%20am%20interested%20in%20your%20property%2Fplot.%20Please%20share%20the%20details.",
     bg: "bg-green-500",
   },
 ];
