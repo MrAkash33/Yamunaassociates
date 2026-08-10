@@ -59,8 +59,8 @@ export default function ContactCTA() {
               Share your details and property preferences below. We will send the information directly to our team via email and WhatsApp.
             </p>
             <div className="mt-8 space-y-4 text-slate-200">
-              <p>📞 +91 7428452995</p>
-              <p>📧 info@yamunaassociates.com</p>
+              <p>📞 +91 8700088376</p>
+              <p>📧yamunaassociates95@gmail.com</p>
               <p>🌍 Greater Noida • Yamuna Expressway</p>
             </div>
           </div>

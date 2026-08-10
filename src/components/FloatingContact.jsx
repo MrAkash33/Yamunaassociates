@@ -38,7 +38,7 @@ export default function FloatingContact() {
             <div className="p-2">
 
               <a
-                href="tel:7428452995"
+                href="tel:8700088376"
                 className="flex items-center gap-3 rounded-xl p-3 hover:bg-gray-100 transition"
               >
                 <div className="h-10 w-10 rounded-full bg-blue-50 flex items-center justify-center">
@@ -46,12 +46,12 @@ export default function FloatingContact() {
                 </div>
 
                 <div>
-                  <p className="font-medium">7428452995</p>
+                  <p className="font-medium">8700088376</p>
                 </div>
               </a>
 
               <a
-                href="https://wa.me/917428452995"
+                href="https://wa.me/918700088376"
                 target="_blank"
                 className="flex items-center gap-3 rounded-xl p-3 hover:bg-green-50 transition"
               >

@@ -90,11 +90,11 @@ export default function Footer() {
             <div className="space-y-4 text-slate-300">
 
               <p>
-                📧 info@yamunaassociates.com
+                📧yamunaassociates95@gmail.com
               </p>
 
               <p>
-                📞 +91 7428452995
+                📞 +91 8700088376
               </p>
 
               <p>
