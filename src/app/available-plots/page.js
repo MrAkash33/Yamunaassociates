@@ -90,10 +90,10 @@ export default function AvailablePlotsPage() {
                   </span>
                 </div>
                 <dl className="mt-6 grid gap-4 text-slate-300">
-                  <div>
+                  {/* <div>
                     <dt className="text-sm font-medium text-slate-400">Plot area</dt>
                     <dd className="mt-1 text-base">{plot.area}</dd>
-                  </div>
+                  </div> */}
                   <div>
                     <dt className="text-sm font-medium text-slate-400">Price</dt>
                     <dd className="mt-1 text-base">{plot.price}</dd>

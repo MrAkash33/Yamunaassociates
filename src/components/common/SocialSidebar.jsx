@@ -12,7 +12,7 @@ const socialLinks = [
   {
     name: "Facebook",
     icon: FaFacebookF,
-    href: "https://www.facebook.com/yamuna.deals.2025",
+    href: "https://www.facebook.com/Yamunassociates",
     bg: "bg-blue-600",
   },
   {
