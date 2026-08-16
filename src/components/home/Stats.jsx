@@ -63,7 +63,7 @@ const projects = [
     description:
       "Upcoming residential development with strong growth potential.",
     plotSize: "120 - 162 sq.m",
-    price: "₹1.10 Cr - ₹1.80 Cr",
+    price: "₹1.10 Cr - ₹1.50 Cr",
     airport: "17 km",
     connectivity: "Expressway Connectivity",
     infrastructure: "Modern Infrastructure",
