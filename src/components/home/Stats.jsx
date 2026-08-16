@@ -45,7 +45,7 @@ const projects = [
     description:
       "Affordable residential plots approved by YEIDA.",
     plotSize: "300 - 500 sq.m",
-    price: "₹90 Lakh - ₹4 Cr",
+    price: "₹1.85 Cr - ₹3.50 Cr",
     airport: "18 km",
     connectivity: "Yamuna Expressway + Metro Proposed",
     infrastructure: "Underground Utilities",
@@ -62,8 +62,8 @@ const projects = [
     title: "Sector 22D Residential Plots",
     description:
       "Upcoming residential development with strong growth potential.",
-    plotSize: "100 - 400 sq.m",
-    price: "₹85 Lakh - ₹2.80 Cr",
+    plotSize: "120 - 162 sq.m",
+    price: "₹1.10 Cr - ₹1.80 Cr",
     airport: "17 km",
     connectivity: "Expressway Connectivity",
     infrastructure: "Modern Infrastructure",
@@ -80,8 +80,8 @@ const projects = [
     title: "Sector 16 Residential Plots",
     description:
       "Modern residential plots planned for upcoming enterprises.",
-    plotSize: "80 - 250 sq.m",
-    price: "₹70 Lakh - ₹2 Cr",
+    plotSize: "120 ,162 ,200 ,300 sq.m",
+    price: "₹1.05,₹1.55,₹1.65, ₹2 Cr",
     airport: "20 km",
     connectivity: "Expressway Corridor",
     infrastructure: "Smart Utilities",
@@ -97,8 +97,8 @@ const projects = [
     title: "Sector 17 Residential Plots",
     description:
       "Dedicated residential area approved by YEIDA.",
-    plotSize: "100 - 350 sq.m",
-    price: "₹80 Lakh - ₹2.25 Cr",
+    plotSize: "120 , 162 , 200 sq.m",
+    price: "₹1.05 Cr , 1.55 Cr ,  ₹1.65 Cr",
     airport: "19 km",
     connectivity: "Direct Road Network",
     infrastructure: "Water & Electricity",

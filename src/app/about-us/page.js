@@ -9,9 +9,9 @@ const values = [
 ];
 
 const team = [
-  { name: "RK Singh", role: "Founder & CEO" },
+  { name: "Dinesh chauhan", role: "Founder & CEO" },
   { name: "Reenuka Thakur", role: "Operations Head" },
-  { name: "Dinesh Chauhan", role: "Sales Director" },
+  // { name: "Dinesh Chauhan", role: "Sales Director" },
 ];
 
 const milestones = [
