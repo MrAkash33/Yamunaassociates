@@ -5,14 +5,14 @@ export const metadata = {
 const plots = [
   {
     id: "Pocket T 610",
-    facing: "North Unregistered Corner 45/18",
+    facing: "North Facing Unregistered Corner 45/18",
     zone: "Premium",
     price: "4.50 Crore",
     status: "Available",
   },
   {
     id: "Pocket S 336",
-    facing: "Registered East",
+    facing: "Registered East Facing",
     zone: "Premium",
     price: "3 Crore",
     status: "Available",
@@ -20,7 +20,7 @@ const plots = [
   {
     id: "Pocket 6B",
     area: "300 sq mtr",
-    facing: "West",
+    facing: "West Facing",
     zone: "Premium",
     price: "1.95 Crore",
     status: "Available",
@@ -32,7 +32,7 @@ const plots = [
   {
     id: "Pocket 17C",
     area: "120 sq mtr",
-    facing: "East",
+    facing: "East Facing",
     zone: "Premium",
     price: "1.05 Crore",
     status: "Available",
@@ -41,7 +41,7 @@ const plots = [
   {
     id: "Pocket 7D",
     area: "60 sq mtr",
-    facing: "Park",
+    facing: "Park Facing",
     zone: "Premium",
     price: "70 Lakh",
     status: "Available",
@@ -49,7 +49,7 @@ const plots = [
   {
     id: "Pocket J",
     area: "300 sq mtr",
-    facing: "North",
+    facing: "North Facing",
     zone: "Premium",
     price: "2.40 Crore",
     status: "Available",
