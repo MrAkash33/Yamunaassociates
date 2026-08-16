@@ -101,26 +101,87 @@ export default function AvailablePlotsPage() {
 
       <section className="px-6 py-20 md:px-10">
         <div className="mx-auto max-w-6xl space-y-8">
-          <div className="grid gap-6 md:grid-cols-3">
+         <div className="grid gap-6 md:grid-cols-3">
             {plots.map((plot) => (
-              <article key={plot.id} className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl shadow-slate-950/20">
-                <div className="flex items-center justify-between gap-4">
+              <article
+                key={plot.id}
+                className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-xl shadow-slate-950/20"
+              >
+                <div className="flex items-start justify-between gap-4">
                   <div>
                     <h2 className="text-2xl font-semibold text-white">{plot.id}</h2>
-                    <p className="mt-2 text-slate-300">{plot.zone} zone • {plot.facing}-facing</p>
+
+                    <p className="mt-2 text-slate-300">
+                      {plot.zone} zone • {plot.facing}
+                    </p>
                   </div>
-                  <span className={`inline-flex rounded-full px-4 py-2 text-sm font-semibold ${plot.status === "Available" ? "bg-emerald-500/20 text-emerald-200" : "bg-slate-700/70 text-slate-300"}`}>
+
+                  <span
+                    className={`inline-flex rounded-full px-4 py-2 text-sm font-semibold ${
+                      plot.status === "Available"
+                        ? "bg-emerald-500/20 text-emerald-200"
+                        : "bg-slate-700/70 text-slate-300"
+                    }`}
+                  >
                     {plot.status}
                   </span>
                 </div>
+
                 <dl className="mt-6 grid gap-4 text-slate-300">
-                  {/* <div>
-                    <dt className="text-sm font-medium text-slate-400">Plot area</dt>
-                    <dd className="mt-1 text-base">{plot.area}</dd>
-                  </div> */}
+                  {plot.sector && (
+                    <div>
+                      <dt className="text-sm font-medium text-slate-400">Sector</dt>
+                      <dd className="mt-1 text-base">{plot.sector}</dd>
+                    </div>
+                  )}
+
+                  {plot.area && (
+                    <div>
+                      <dt className="text-sm font-medium text-slate-400">Plot Area</dt>
+                      <dd className="mt-1 text-base">{plot.area}</dd>
+                    </div>
+                  )}
+
+                  {plot.road && (
+                    <div>
+                      <dt className="text-sm font-medium text-slate-400">Road</dt>
+                      <dd className="mt-1 text-base">{plot.road}</dd>
+                    </div>
+                  )}
+
+                  {plot.registration && (
+                    <div>
+                      <dt className="text-sm font-medium text-slate-400">Registration</dt>
+                      <dd className="mt-1 text-base">{plot.registration}</dd>
+                    </div>
+                  )}
+
+                  {plot.feature && (
+                    <div>
+                      <dt className="text-sm font-medium text-slate-400">Feature</dt>
+                      <dd className="mt-1 text-base">{plot.feature}</dd>
+                    </div>
+                  )}
+
+                  {plot.completion && (
+                    <div>
+                      <dt className="text-sm font-medium text-slate-400">Status Details</dt>
+                      <dd className="mt-1 text-base">{plot.completion}</dd>
+                    </div>
+                  )}
+
+                  {plot.payment && (
+                    <div>
+                      <dt className="text-sm font-medium text-slate-400">Payment</dt>
+                      <dd className="mt-1 text-base">{plot.payment}</dd>
+                    </div>
+                  )}
+
                   <div>
                     <dt className="text-sm font-medium text-slate-400">Price</dt>
-                    <dd className="mt-1 text-base">{plot.price}</dd>
+                    <dd className="mt-1 text-xl font-semibold text-white">
+                      {plot.price}
+                    </dd>
                   </div>
                 </dl>
               </article>
